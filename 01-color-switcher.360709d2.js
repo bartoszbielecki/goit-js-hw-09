@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",(function(){const t=document.querySelector("[data-start]"),e=document.querySelector("[data-stop]");if(t&&e){let n;t.addEventListener("click",(function(){n=setInterval((function(){document.body.style.backgroundColor=`#${Math.floor(16777215*Math.random()).toString(16)}`}),1e3),this.disabled=!0,e.disabled=!1})),e.addEventListener("click",(function(){clearInterval(n),t.disabled=!1,this.disabled=!0}))}else console.error("One or both buttons not found.")}));
+//# sourceMappingURL=01-color-switcher.360709d2.js.map
